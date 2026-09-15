@@ -113,10 +113,10 @@ export const LocationSection: React.FC = () => {
             <div className="p-6 rounded-2xl bg-gradient-to-br from-zinc-900 to-amber-950/20 border border-amber-500/30 space-y-3">
               <div className="flex items-center gap-2 text-amber-400 font-bold text-sm">
                 <Car className="w-5 h-5" />
-                <span>무료 고급 세단 안심 픽업 서비스 안내</span>
+                <span>포르쉐 & 고급 세단 무료 안심 픽업 서비스</span>
               </div>
               <p className="text-xs text-zinc-300 leading-relaxed">
-                출발 30분 전 전화나 카톡으로 계신 위치를 알려주시면 전담 기사가 배정되어 약속 장소로 모시러 갑니다.
+                출발 30분 전 전화나 카톡으로 계신 위치를 알려주시면 전담 기사가 배정되어 포르쉐 및 고급 세단으로 약속 장소까지 안전하게 모시러 갑니다.
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-1 text-[11px] text-zinc-300">
                 <span className="p-2 rounded bg-zinc-900/90 border border-zinc-800 text-center">건대 / 구의 / 자양</span>

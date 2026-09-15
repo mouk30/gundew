@@ -81,13 +81,16 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking, onOpenC
             </div>
           </div>
 
-          <div className="p-3 rounded-xl bg-zinc-900/80 border border-zinc-800 backdrop-blur-sm flex items-center gap-2.5">
+          <div className="p-3 rounded-xl bg-zinc-900/80 border border-amber-500/30 backdrop-blur-sm flex items-center gap-2.5 shadow-lg shadow-amber-500/5">
             <div className="w-8 h-8 rounded-lg bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0">
               <Car className="w-4 h-4 text-amber-400" />
             </div>
             <div>
-              <p className="text-xs font-bold text-white">무료 안심 픽업</p>
-              <p className="text-[11px] text-zinc-400">고급 세단 상시대기</p>
+              <p className="text-xs font-bold text-white flex items-center gap-1">
+                <span>포르쉐 안심 픽업</span>
+                <span className="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-bold border border-amber-500/30">VIP</span>
+              </p>
+              <p className="text-[11px] text-zinc-400">포르쉐·고급세단 상시대기</p>
             </div>
           </div>
         </div>
